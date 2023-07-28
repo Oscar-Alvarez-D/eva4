@@ -29,7 +29,7 @@ function App() {
 <Route path='/formulario' element={<Formulario/>} />
 <Route path='/usuarios' element={<Usuarios/>} />
 
-//En el segmento anterior se muestra cómo se configuran las rutas utilizando React Router.
+
 
 </Routes> 
 <Footer/>

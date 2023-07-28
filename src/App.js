@@ -1,3 +1,5 @@
+//Aquí se estan importando componentes necesarios como el router-dom.
+
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { Header } from './layout/Header';
 import { Footer } from './layout/Footer';
@@ -15,7 +17,6 @@ function App() {
   return (
 
 <div className='contenedor'>
-  {/* donde el browser router es la ruta padre */}
 <BrowserRouter> 
 <Header/>
 <Routes>
@@ -27,6 +28,8 @@ function App() {
 <Route path='/multimedia' element={<Multimedia/>} />
 <Route path='/formulario' element={<Formulario/>} />
 <Route path='/usuarios' element={<Usuarios/>} />
+
+//En el segmento anterior se muestra cómo se configuran las rutas utilizando React Router.
 
 </Routes> 
 <Footer/>
